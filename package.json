@@ -1,11 +1,11 @@
 {
-  "name": "@pancakeswap-libs/pancake-swap-core",
-  "description": "🎛 Core contracts for the pancake protocol",
+  "name": "@duhd4h/global-swap-core",
+  "description": "🎛 Core contracts for the global protocol",
   "version": "0.1.0",
-  "homepage": "https://pancakeswap.finance",
+  "homepage": "https://global.finance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pancakeswap/pancake-swap-core.git"
+    "url": "https://github.com/Global-Repo/global-core.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
@@ -39,7 +39,7 @@
     "compile": "waffle .waffle.json",
     "pretest": "yarn compile",
     "test": "mocha",
-    "prepublishOnly": "yarn test"
+    "prepublishOnly": ""
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
